@@ -12,6 +12,8 @@ Charger le .cbp dans CodeBlocks
 
 Compiler et lancer le programme (ça lance le mainFV2.cpp)
 
+Pour entraîner le modèle, marche à suivre sur https://github.com/dog-qiuqiu/Yolo-FastestV2. Les fichiers nécessaires sont dans train/
+
 #### Edge detection
 
 Détection de contours avec sobel :

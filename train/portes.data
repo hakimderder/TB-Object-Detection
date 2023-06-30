@@ -1,0 +1,21 @@
+[name]
+model_name=portes
+
+[train-configure]
+epochs=300
+steps=150,250
+batch_size=128
+subdivisions=1
+learning_rate=0.001
+
+[model-configure]
+pre_weights=None
+classes=80
+width=352
+height=352
+anchor_num=3
+anchors=3.99,17.36, 11.55,12.71, 20.42,20.41, 29.15,272.56, 42.21,69.91, 168.85,233.20
+
+[data-configure]
+train=/home/hak/tb/portes/train.txt
+names=category.names
